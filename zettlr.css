@@ -11,10 +11,9 @@
   
 }
 
-body #editor {
+body {
   font-family: 'Atkinson Hyperlegible', sans-serif;
   line-height: 1.5;
-  padding: 2rem 2rem;
 }
 
 ::-webkit-scrollbar {
