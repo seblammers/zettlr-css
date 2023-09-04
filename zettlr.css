@@ -58,7 +58,17 @@ h3 {
   max-width: 25ch;
 }
 
-li, p {
+.cm-widgetBuffer {
+  margin: 0;
+  padding: 0 0.2rem;
+}
+
+li, p, .rendered-bullet, .cm-line > .cm-list:nth-child(1) {
   margin-left: 2em;
+  max-width: 100ch;
+}
+
+img {
+  margin-left: 1.6em;
   max-width: 100ch;
 }
