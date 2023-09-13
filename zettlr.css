@@ -28,7 +28,7 @@ body {
 
 
 .cm-fenced-code.cm-atom {
-	color: #606060 !important;;  
+	color: #606060 !important;
 }
 
 h1,
@@ -58,7 +58,8 @@ h3 {
   max-width: 25ch;
 }
 
-.cm-widgetBuffer {
+/* This is for the bullet point icon in ul lists */
+.rendered-bullet {
   margin: 0;
   padding: 0 0.2rem;
 }
@@ -68,7 +69,7 @@ li, p, .rendered-bullet, .cm-line > .cm-list:nth-child(1) {
   max-width: 100ch;
 }
 
-img {
-  margin-left: 1.6em;
+figure > img {
+  margin-left: 2.6em;
   max-width: 100ch;
 }
